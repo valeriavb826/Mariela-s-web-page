@@ -1,0 +1,64 @@
+/* TEXT COLORS */
+
+.primary-text{
+    color: rgb(82, 96, 124);
+    /* color: white; */
+}
+
+.text-color{
+    color: rgb(82, 96, 124);
+    background-color: rgb(247, 249, 254);
+}
+
+.text-color-dark{
+    background:rgb(86, 92, 100);
+    color: whitesmoke;
+}
+
+/* .primary-dark-color{
+    background-color: rgb(146, 159, 181);
+} */
+
+.primary-light{
+    background-color: rgb(218, 223, 231);
+}
+
+.main-box-shadow{
+    box-shadow: rgb(82, 96, 124) 0 0 20px;
+}
+
+.primary-btn{
+    cursor:pointer;
+    margin: 50px 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+    background-color: rgb(141, 155, 183);
+    color: white;
+}
+
+#nav-img{
+    padding: 10px 0;
+}
+
+.primary-btn:hover{
+    opacity: 0.9;
+  }
+
+.half-border{
+    border-bottom: 1.5px solid rgb(82, 96, 124);
+}
+
+.flex1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

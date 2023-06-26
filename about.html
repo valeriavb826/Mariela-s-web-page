@@ -5,31 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utilities.css">
     <title>Mariela's Psychological Services | About</title>
 </head>
 <body>
     
     <header>
         <section id="navBar">
-            <div>
-                <img src="https://i.ibb.co/kBMc8qW/Screenshot-2023-02-24-at-2-29-20-PM.png" alt="Logo" border="0">
+            <div class="nav-img">
+                <!-- <img class="main-box-shadow" src="https://i.ibb.co/kBMc8qW/Screenshot-2023-02-24-at-2-29-20-PM.png" alt="Logo" border="0"> -->
+                <img class="main-box-shadow" src="images/logoimg.png" alt="Logo">
             </div>
             <nav>
-                    <ul>
+                    <ul class="half-border">
                         <li><a href="index.html">Home</a></li>
                         <li><a class="curent" href="about.html">About</a></li>
-                        <li><a href="contact.html">Contanct</a></li>
+                        <li><a href="contact.html">Contact</a></li>
                     </ul>
             </nav>
         </section>
     </header>
 
     <section id="about-info">
-            <section>
-                <div  class="about-img">
+            <section class="about-section1">
+                <div>
+                    <img class="about-img" src="images/headshot.png" alt="">
                 </div>
+                <button class="primary-btn"  type="button" onClick="window.open('https://www.linkedin.com/in/mariela-aguilera-ed-d-ncsp-92a87070/')" class="btn">My Linkedin</button>
+               
             </section>
-            <section class="about-text">
+            <section class="about-text text-color">
                 <h1 class="about-Large-heading">About Dr.Agulera</h1>
                 <p>Dr. Mariela Aguilera is a highly skilled and dedicated psychologist and educator with expertise in school psychology. She holds a Doctor of Education (Ed.D.) in School Psychology from Loyola University Chicago, an Education Specialist degree in School Psychology and a Master of Education degree from National Louis University, and a Bachelor of Arts degree with a double major in Psychology and Sociology from Saint Mary's College.</p>
                 <p>She is licensed and endorsed in school psychology by the State of Florida Department of Education and the Florida Department of Health. She is also licensed as a Professional Educator with an Endorsement in School Psychology by the Illinois State Board of Education. Throughout her career, she has been an active member of professional associations such as the National Association of School Psychologists (NASP).</p>
@@ -44,17 +49,19 @@
 
     <section id="education-info">
 
-        <section id="education-cont">
+        <section id="education-cont" class="flex-center">
         
         <Section class="education">
-            <h2 class="education-hedding">Education</h2>
+            <h2 class="education-hedding flex-center text-color">Education</h2>
 
-            <section class="institution">
-                <img src="https://i.ibb.co/gW5Mt7Q/7070d04349fa87c0166556176f0ca215.jpg" alt="University of indiana logo">
+            <section class="institution flex-center text-color">
+                <!-- <img src="https://i.ibb.co/gW5Mt7Q/7070d04349fa87c0166556176f0ca215.jpg" alt="University of indiana logo"> -->
+                <img src="images/univlogo2.jpeg" alt="University of indiana logo">
                 <span>University of Indiana</span>
             </section>
-            <section class="institution">
-                <img src="https://i.ibb.co/crVhPtv/Tampa-Spartans-logo-svg.png" alt="university of tampa logo">
+            <section class="institution flex-center text-color">
+                <!-- <img src="https://i.ibb.co/crVhPtv/Tampa-Spartans-logo-svg.png" alt="university of tampa logo"> -->
+                <img src="images/univlogo1.svg.png" alt="university of tampa logo">
                 <span>University of Tampa</span>
             </section>
         </Section>
@@ -62,14 +69,16 @@
 
 
         <Section class="affiliations">
-            <h2 class="education-hedding">Affitiations</h2>
+            <h2 class="education-hedding flex-center text-color">Affitiations</h2>
 
-            <section class="institution">
-                <img src="https://i.ibb.co/gW5Mt7Q/7070d04349fa87c0166556176f0ca215.jpg" alt="University of indiana logo">
+            <section class="institution flex-center text-color">
+                <!-- <img src="https://i.ibb.co/gW5Mt7Q/7070d04349fa87c0166556176f0ca215.jpg" alt="University of indiana logo"> -->
+                <img src="images/univlogo2.jpeg" alt="University of indiana logo">
                 <span>University of Indiana</span>
             </section>
-            <section class="institution">
-                <img src="https://i.ibb.co/crVhPtv/Tampa-Spartans-logo-svg.png" alt="university of tampa logo">
+            <section class="institution flex-center text-color">
+                <!-- <img src="https://i.ibb.co/crVhPtv/Tampa-Spartans-logo-svg.png" alt="university of tampa logo"> -->
+                <img src="images/univlogo1.svg.png" alt="university of tampa logo">
                 <span>University of Tampa</span>
             </section>
 
@@ -77,7 +86,7 @@
     </section>
     </section>
 
-    <footer id="main-footer">
+    <footer id="main-footer" class="text-color-dark">
         <p>Dr. Mariela Aguilera's Psychological Services &copy; 2022, All Rights Reserved</p>
     </footer>
 

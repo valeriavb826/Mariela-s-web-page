@@ -5,7 +5,8 @@
     	<meta name="description" content="This is where your description goes">
     	<meta name="keywords" content="one, two, three">
 		<link rel="stylesheet" href="css/style.css">
-		<title>Mariela's Psychological Services | Helcome</title>
+		<link rel="stylesheet" href="css/utilities.css">
+		<title> Mariela's Psychological Services | Helcome  </title>
 
 		<!-- external CSS link -->
 		<link rel="stylesheet" href="css/normalize.css">
@@ -16,10 +17,12 @@
 		<!-- header -->
 
 		<header id="mainContainer">
-			<section >
+	
+			<section>
 				<nav id="MainNavBar">
 					<div>
-						<img src="https://i.ibb.co/kBMc8qW/Screenshot-2023-02-24-at-2-29-20-PM.png" alt="Logo">
+						<!-- <img src="https://i.ibb.co/kBMc8qW/Screenshot-2023-02-24-at-2-29-20-PM.png" alt="Logo"> -->
+						<img class="main-box-shadow" src="images/logoimg.png" alt="Logo">
 					</div>
 						<ul>
 							<li><a class="current" href="index.html">Home</a></li>
@@ -29,35 +32,36 @@
 				</nav>
 			</section>
 			<section id="intro">
-				<div class="container-intro">
-					<h1> Welcome To Dr. Aguilera's </h1>
-					<p class="intro-parragraph"></p>
+				<div class="text-intro flex1">
+					<h1> Dr. Aguilera's Psychological Services</h1>
 					<a href="contact.html">
-						<button type="button" class="btn">Contanct Me</button>
+						<button type="button" class="btn primary-btn">Contact Me</button>
 					</a>
 				</div>
 			</section>
+		
 	</header>
 
 		<!-- services -->
 
-		<section id="services">
-
-			<div class="service-img">
-				<img src="https://i.ibb.co/JRTjVn9/pexels-julia-m-cameron-4143794.jpg" alt="">
-			</div>
+		<section id="services" class=" primary-light">
 
 			<div class="service-cont">
-				<div class="service-text">
-				<h2 class="services-h2">Services</h2>
-                <ul class="services-list">
+				<!-- <img class="main-box-shadow" src="https://i.ibb.co/JRTjVn9/pexels-julia-m-cameron-4143794jpg"alt=""> -->
+				<img class="main-box-shadow" src="images/servicesimg.jpg"alt="">
+			</div>
+
+			<div class="service-cont flex1">
+				<div class="service-text text-color">
+				<h2 class="services-h2 primary-text">Services</h2>
+                <ul class="services-list primary-text">
                     <li>Evaluations of symptoms related to ADHD and Executive Functions.</li>
                     <li>Assessments of social-emotional functioning within the school setting (depression, anxiety, etc.).</li>
 					<li>Academic Testing (assessing math, writing, and reading skills).</li>
 					<li>Cognitive Testing (includes but is not limited to processing speed, working memory, full scale IQ) .</li>
 					<li>Adaptive abilities.</li>
 					<li>Consultation with schools and teachers</li>
-					<li>Parent and Student Interviews (Spanish translation available upon request)</li>
+					<li>Parent and Student Interviews (Spanish translation available)</li>
 					<li>Student observations during assessment</li>
                 </ul>
 				</div>
@@ -67,18 +71,18 @@
 		<!-- contact info -->
 
 	
-		<section id="contanct-info">
-            <section class="box">
+		<section id="contanct-info" class="flex-center primary-text">
+            <section class="box flex1">
                 <ion-icon size= "large" name="call"></ion-icon>
                 <h3>Phone Number</h3>
                 <p>(260) 440 - 0914</p>
             </section>
-            <section class="box">
+            <section class="box flex1">
                 <ion-icon size= "large" name="mail"></ion-icon>
                 <h3>Email Address</h3>
                 <p>aguilera.psg@gmail.com </p>
             </section>
-            <section class="box">
+            <section class="box flex1">
                 <ion-icon size= "large" name="location-sharp"></ion-icon>
                 <h3>Location</h3>
                 <p>Chicago, IL</p>
@@ -87,7 +91,7 @@
 
 		<!-- footer -->
 
-		<footer id="main-footer">
+		<footer id="main-footer" class="text-color-dark">
 			<p>Dr. Mariela Aguilera's Psychological Services &copy; 2022, All Rights Reserved</p>
 		</footer>
 
