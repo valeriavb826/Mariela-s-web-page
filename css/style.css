@@ -323,7 +323,6 @@ overflow: hidden;
 
 
 .contact-main .box2{
-  border: 1px solid wheat;
   border-radius: 50%;
   width: 33.33%;
   max-width: 250px;
@@ -334,7 +333,6 @@ overflow: hidden;
 
 
 .contact-main h2{
-  /* padding: 50px 0; */
   margin: 75px 0;
   text-transform:uppercase;
 }
