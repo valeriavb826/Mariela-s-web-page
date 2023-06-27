@@ -43,7 +43,6 @@
   font-size: 20px;
   text-transform: uppercase;
   text-decoration: none;
-  /* color: rgb(82, 96, 124); */
   color: rgb(255, 255, 255);
 }
 
@@ -87,7 +86,6 @@
   width: 130px;
   margin-top: 20px;
   border-radius: 50%;
-  /* box-shadow: grey 0 0 20px; */
 }
 
 #intro .text-intro{
@@ -102,7 +100,6 @@
   border-radius: 10px;
   font-weight: bold;
   color: white;
-  /* background-color: rgba(218, 223, 231, .3); */
 }
 
 
@@ -114,9 +111,7 @@
   display: flex;
   justify-content: space-between;
   align-items:center;
-  /* background-color: rgb(217, 145, 111); */
   padding: 0px 30px;
-  /* border-bottom: 1.5px solid rgb(82, 96, 124); */
   background-color: white;
 }
 
@@ -129,13 +124,11 @@
   display: flex;
   list-style: none;
   padding: 0 0 0 20px;
-  /* border-bottom: 1.5px solid rgb(82, 96, 124); */
 }
 
 #navBar a{
   display:flex;
   text-decoration: none;
-  /* color: white; */
   margin: 0 50px 0 20px;
   padding: 50px 20px;
   text-transform: uppercase;
@@ -145,7 +138,6 @@
 #navBar img{
   width: 100px;
   border-radius: 50%;
-  /* box-shadow: rgb(225, 169, 141) 0 0 20px; */
 }
 
 /******************************************
@@ -154,17 +146,10 @@
 
 #services{
   display: flex;
-  flex-wrap: wrap;
   padding: 40px;
-  /* background-color:  rgb(236, 218, 199); */
+  height: 70vh;
 }
 
-#services .service-cont{
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
-}
 
 #services img{
  width: 100%;
@@ -178,10 +163,9 @@
 #services .service-text{
   padding: 15px 40px 20px 40px;
   width: 100%;
+  height:100%;
   border-radius: 5px;
   box-shadow: 10px 10px 30px rgba(0,0,0,0.2);
-  /* background-color:  rgb(243, 235, 226);
-  color: rgb(82, 96, 124); */
 }
 
 #services .services-h2{
@@ -203,7 +187,6 @@
 
 #contanct-info .box{
   width: 33.3%;
-  /* color: rgb(82, 96, 124) */
 }
 
 #contanct-info h3, ion-icon{
@@ -212,8 +195,6 @@
 
 #main-footer{
   text-align: center;
-  /* background:rgb(64, 70, 78);
-  color: whitesmoke; */
   padding: 15px;
   height: 80px;
 }
@@ -227,8 +208,6 @@
   display: flex;
   justify-content: center;
   align-items:flex-start;
-  /* text-align: center; */
-  /* background-color: rgb(236, 218, 199); */
 
 }
 
@@ -236,7 +215,6 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  /* padding: 50px 50px 0 0; */
   margin: 50px 70px 0 0;
 }
 
@@ -260,8 +238,6 @@
   padding-top: 30px;
   border-radius: 5px;
   box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
-  /* background-color: rgb(231, 220, 209); */
-  /* border: 2px solid black; */
 }
 
 #about-info p{
@@ -288,7 +264,6 @@
 }
 
 #education-cont .institution{
-  /* background-color: rgba(210,215, 219, 1); */
   opacity: 0.9;
   margin: 10px 30px 10px 0;
 }
@@ -302,7 +277,6 @@
 }
 
 #education-cont .education-hedding{
-  /* background-color: rgba(210,215, 219, 1); */
   opacity: 0.9;
   margin: 40px 40px 0;
 }
@@ -317,9 +291,6 @@
   justify-content: center;
   align-items:flex-start;
   height: 100%;
-  /* flex-basis: 100%;
-  flex: 1; */
-  /* background-color:  rgb(236, 218, 199); */
 }
 
 .contact-main{
@@ -331,7 +302,6 @@
   height: 70vh;
   padding: 30px 30px 50px 30px;
   margin: 50px 30px 50px 0;
-  /* color: rgb(157, 80, 55); */
   border-radius: 5px;
   box-shadow: 10px 10px 30px rgba(0,0,0,0.2);
 }
@@ -352,8 +322,6 @@
   height: 250px;
   margin: 0 20px;
   padding: 0px 0 20px 0;
-  /* background-color: rgb(245, 241, 237); */
-  /* box-shadow: rgb(225, 169, 141) 0 0 20px; */
 }
 
 
@@ -373,30 +341,29 @@
 /* MOBILE
 /*******************************************/
 
-@media(max-width: 768px){
+@media(width <= 820px){
 
-  #MainNavBar{
+  #MainNavBar, #navBar{
     flex-direction: column;
   }
+
 
   #MainNavBar img{
-    width: 80px;
-    margin: 10px 5px 20px 0;
-    border-radius: 50%;
-    box-shadow: grey 0 0 20px;
+    width: 90px;
+    margin-bottom: 20px;
   }
 
-  #navBar{
-    flex-direction: column;
-    align-items: center;
+  #navBar a {
+    padding: 20px 0;
   }
+
   #navBar img{
     margin-top: 20px;
   }
 
   #services{
-    flex-direction: column;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    height: fit-content;
   }
 
   #services .service-text{
@@ -408,27 +375,25 @@
     height: fit-content;
     justify-content: center;
     align-items: center;
+    text-align: center;
   }
 
   #about-info{
     flex-direction: column;
-    align-items: center;
- 
   }
 
-  #about-info .about-img{
-    margin: auto;
-    margin-top: 30px;
-  }
 
-  #about-info .about-section1{
+  .about-section1{
+    display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 50px;
+    width: 100%;
   }
 
+
   #about-info .about-text{
-    width: auto;
+    width: 100%;
+    margin: auto;
   }
 
   #about-info h1{
@@ -446,15 +411,11 @@
     margin-left: 30px;
   }
 
-  #contact{
-    align-items: center;
-    flex-direction: column;
-
-  }
-
   .contact-main{
     flex-direction: column;
+    width: 100%;
     height: fit-content;
+    margin-left: 30px;
   }
 
   .contact-main .box2{
