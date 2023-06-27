@@ -347,13 +347,16 @@
     flex-direction: column;
   }
 
+  #MainNavBar ul{
+    margin-left: 20px;
+  }
 
   #MainNavBar img{
     width: 90px;
     margin-bottom: 20px;
   }
 
-  #navBar a {
+  #navBar a{
     padding: 20px 0;
   }
 
