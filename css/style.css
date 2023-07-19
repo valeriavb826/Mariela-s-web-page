@@ -426,6 +426,8 @@ overflow: hidden;
     width: 100%;
     height: fit-content;
     margin-left: 30px;
+    position: relative;
+    left: -60px;
   }
 
   .contact-main .box2{
@@ -433,6 +435,9 @@ overflow: hidden;
     height:200px;
     margin: 20px;
 
+  }
+  .contact-main h2{
+    margin: 20px;
   }
 
   #contact img{
